@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Monaco, monospace;;
+    background-color: gray;
+}
+
+#container {
+    width: 80%;
+    height: 150vh;
+    padding-top: 35px;
+    display: flex;
+    flex: column;
+}
+
+
+
+#main-content {
+    width: 70%; 
+    background-color: black;
+    margin-left: 425px;
+    padding-left: 40px;
+    padding-top: 30px;
+    display: flex;
+    height: 88%;
+}
+
+#direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    clear:  none;
+}
+
+#header {
+    flex-direction: column;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 400px;
+    padding-right: 30px;
+}
+
+#header>hr {
+    width: 275px;
+}
+
+#avatar { 
+    width: 260px;
+    height: 250px;
+    display: flex;
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 5px solid white;
+    transition: transform 0.3s;
+}
+
+#avatar:hover {
+    transform: scale(1.1);
+}
+
+#info {
+    background-color: white;
+    width: 65%; 
+    float: right;
+    height: 97%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#historico {
+    width: 100%;
+}
+
+#linhaPreta {
+    background-color: black;
+    height: 50px;
+    width: 452px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-left: 175px;
+}
+
+.exp {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+}
+
+#experiences {
+    width: 75%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 152px;
+    align-items: center;
+    justify-content: center;
+}
+
+#nomesCetro {
+    display: flex;
+    flex-direction: center;
+    color: white;
+    padding-right: 30px;
+}
+
+#footer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-style: none;
+}
+
+
+
+#direita>hr {
+    width: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left:61px;
+}
+
+#tabelaTec {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    padding-right: 30px;
+}
+
+.nomesTable {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.itemLinha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.itemLinha:hover {
+    transform: scale(1.1);
+}
+
+.linhaTec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tabelaContatos {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#escolaridade {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-left: 175px;
+}
+
+.rowEmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+}
